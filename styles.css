@@ -2,6 +2,8 @@
 
 #button1{
     color: blue;
+}
+
 /* PART 2 CSS */
 #Part2ParanoidDiv {
     width: auto ;
@@ -30,4 +32,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* PARTS 3 AND 4 CSS */
+#Parts3and4Form {
+    
 }
