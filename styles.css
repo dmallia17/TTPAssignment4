@@ -1,6 +1,8 @@
 /* Group Members: Daniel Mallia and Darren Zhang */
+
+/* PART 2 CSS */
 #Part2ParanoidDiv {
-    width: 400px;
+    width: auto ;
     height: 400px;
     border: 10px;
     border-style: dashed;
@@ -18,4 +20,12 @@
 
 #Part2ParanoidDiv:hover {
     background-color: royalblue;
+}
+
+#Part2NormalDiv {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
