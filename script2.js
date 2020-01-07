@@ -1,3 +1,5 @@
+// Group Members: Daniel Mallia and Darren Zhang
+
 // Part 2 Code
 let part2ParanoidDiv = document.querySelector("#Part2ParanoidDiv");
 part2ParanoidDiv.addEventListener("mouseenter", function(event) { 
