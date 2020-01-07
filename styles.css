@@ -1,8 +1,42 @@
 /* Group Members: Daniel Mallia and Darren Zhang */
 
-#button1{
-    color: blue;
+/* Universal CSS */
+body {
+    background-color: rgb(217, 231, 197);
 }
+
+.NextPageDiv {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Part 1 CSS */
+.arguButton {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    background-color: moccasin;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#Part1ButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#arguText {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 45px;
+}
+
 
 /* PART 2 CSS */
 #Part2ParanoidDiv {
@@ -20,21 +54,16 @@
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    font-size: 45px;
 }
 
 #Part2ParanoidDiv:hover {
-    background-color: royalblue;
-}
-
-#Part2NormalDiv {
-    width: auto;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(159, 178, 235);
 }
 
 /* PARTS 3 AND 4 CSS */
-#Parts3and4Form {
-    
+input {
+    width: 200px;
+    height: 50px;
+    padding: 20px, 20px, 20px, 20px;
 }

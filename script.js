@@ -23,25 +23,3 @@ part1ArguButton[1].addEventListener("click", ()=>{
         part1ArguText.innerText = "I'm right";
 
 })
-
-
-// Part 2 Code
-let part2ParanoidDiv = document.querySelector("#Part2ParanoidDiv");
-part2ParanoidDiv.addEventListener("mouseenter", function(event) { 
-    alert("Hey, I told you not to hover over me!");
-});
-
-
-// Parts 3 and 4 Code
-function parts3And4CheckPassword() {
-    let submittedPassword = document.querySelector("#Parts3and4Password").value;
-    let statusField = document.querySelector("#Parts3and4FormStatus");
-
-    statusField.innerText = "Form Status: ";
-
-    if(submittedPassword === "12345678") {
-        statusField.innerText += "Correct Password";
-    } else {
-        alert("Incorrect Password");
-    }
-}
